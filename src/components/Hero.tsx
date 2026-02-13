@@ -31,10 +31,12 @@ export const Hero = () => {
         animate="visible"
       >
         <motion.div variants={itemVariants} className="mb-6">
-          <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
-            <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-600">
-              JP
-            </div>
+          <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
+            <img 
+              src="/jeevan-resume/jeevan-img.jpeg" 
+              alt="P Jeevan Prabhath" 
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
         </motion.div>
 
