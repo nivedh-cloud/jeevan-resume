@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, Linkedin, Github, Twitter } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import { resumeData } from '../data/resumeData';
 
 export const Contact = () => {

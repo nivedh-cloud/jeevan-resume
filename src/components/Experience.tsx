@@ -45,7 +45,7 @@ export const Experience = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          {resumeData.experience.map((job, index) => (
+          {resumeData.experience.map((job) => (
             <motion.div key={job.id} variants={itemVariants}>
               <motion.div
                 className="bg-gradient-to-r from-slate-800 to-slate-700 rounded-xl overflow-hidden border border-slate-600 hover:border-blue-500 transition-all cursor-pointer"
