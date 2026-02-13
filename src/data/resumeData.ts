@@ -137,7 +137,7 @@ export const resumeData = {
     {
       id: 6,
       category: "Personal",
-      name: "The Wisdom Mountain - Adam to Jesus",
+      name: "The Wisdom Mountain",
       company: "Personal Project",
       duration: "2024 – Present",
       description: "Educational visual timeline project depicting biblical history from Adam through Jesus Christ. Features an interactive timeline of significant biblical events, patriarchs, prophets, and historical milestones spanning thousands of years with detailed cultural and historical context.",
