@@ -49,7 +49,7 @@ export const Hero = () => {
         </motion.p>
 
         <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          15+ years of experience building high-performance, responsive web applications using modern technologies. Currently leading UI architecture at Orbcomm.
+          15+ years of experience building high-performance, responsive web applications using modern technologies. Currently working as Technical Lead UI at Orbcomm.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-4 justify-center flex-wrap mb-12">
