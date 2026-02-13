@@ -34,7 +34,7 @@ export const resumeData = {
       id: 2,
       company: "Verizon Data Services India Pvt Ltd",
       position: "Senior Software Engineer",
-      duration: "July 2012 – July 2014",
+      duration: "July 2012 – July 2015",
       location: "India",
       description: "Access Provisioning Control system development",
       highlights: [
