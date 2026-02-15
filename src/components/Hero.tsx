@@ -23,7 +23,7 @@ export const Hero = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4 pt-20">
+    <section className="min-h-screen flex items-center justify-center px-4 pt-20 pb-10 relative z-20 bg-slate-900/40 border-b border-blue-500/30">
       <motion.div
         className="text-center max-w-4xl"
         variants={containerVariants}

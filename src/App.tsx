@@ -1,15 +1,18 @@
-import { Navigation, Hero, Experience, Skills, Projects, Contact } from './components';
+import { Navigation, Hero, Experience, Skills, Projects, Contact, AnimatedBackground } from './components';
 
 function App() {
   return (
-    <div className="w-full overflow-hidden">
-      <Navigation />
-      <Hero />
-      <Experience />
-      <Skills />
-      <Projects />
-      <div id="contact">
-        <Contact />
+    <div className="w-full overflow-hidden bg-slate-900 relative">
+      <AnimatedBackground />
+      <div className="relative z-10">
+        <Navigation />
+        <Hero />
+        <Experience />
+        <Skills />
+        <Projects />
+        <div id="contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ export const resumeData = {
     frontend: ["React", "HTML5", "CSS3", "JavaScript", "TypeScript",  "jQuery", "ExtJS"],
     frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
     backend: ["Restful Web Services", "JSON", "AJAX"],
-    tools: ["Git", "SVN", "Photoshop", "Adobe Suite", "Figma"],
+    tools: ["Visual Studio", "Git", "SVN", "Photoshop", "Adobe Suite", "Figma"],
     other: ["Responsive Design", "Cross-browser Compatibility", "UI/UX Design", "Agile"]
   },
 
