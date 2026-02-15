@@ -6,7 +6,7 @@ export const resumeData = {
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
-    frontend: ["React", "HTML5", "CSS3", "JavaScript (OOPS)", "TypeScript",  "jQuery", "ExtJS"],
+    frontend: ["React", "HTML5", "CSS3", "JavaScript", "TypeScript",  "jQuery", "ExtJS"],
     frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
     backend: ["Restful Web Services", "JSON", "AJAX"],
     tools: ["Git", "SVN", "Photoshop", "Adobe Suite", "Figma"],
