@@ -6,7 +6,7 @@ export const resumeData = {
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
-    frontend: ["HTML5", "CSS3", "JavaScript (OOPS)", "TypeScript", "React", "Angular"],
+    frontend: ["React", "HTML5", "CSS3", "JavaScript (OOPS)", "TypeScript",  "jQuery", "ExtJS"],
     frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
     backend: ["Restful Web Services", "JSON", "AJAX"],
     tools: ["Git", "SVN", "Photoshop", "Adobe Suite", "Figma"],
@@ -151,6 +151,77 @@ export const resumeData = {
       ],
       technologies: ["React", "JavaScript", "HTML5", "CSS3", "Interactive UI", "Educational Design"],
       url: "https://nivedh-cloud.github.io/The-Wisdom-Mountain/adam-to-jesus"
+    },
+    {
+      id: 7,
+      category: "Professional",
+      name: "XpertEMR",
+      company: "XpertEMR",
+      duration: "December 2007 – March 2009",
+      description: "Electronic Medical Records (EMR) system for healthcare providers",
+      role: "UI Developer",
+      highlights: [
+        "Designed and developed user interface for EMR system",
+        "Created image assets and UI elements",
+        "Developed UI pages using C#.NET and HTML",
+        "Worked with 15-member team"
+      ],
+      technologies: ["C#.NET 2005", "Flash", "Photoshop", "Dreamweaver", "HTML", "JavaScript"],
+      url: "http://xpertemr.com/"
+    },
+    {
+      id: 8,
+      category: "Professional",
+      name: "WAMU (Washington Mutual)",
+      company: "WAMU",
+      duration: "March 2008 – January 2009",
+      description: "Financial services website for Washington Mutual, Inc., a leading financial services company handling consumer and small to mid-sized business operations",
+      role: "UI Developer",
+      highlights: [
+        "Designed and developed initial mockups",
+        "Created user interface design and layout",
+        "Image creation and editing for web",
+        "Developed UI pages using C#.NET and HTML",
+        "Created engaging look and feel for customers"
+      ],
+      technologies: ["C#.NET 2005", "Xmpie", "Photoshop", "HTML", "JavaScript"],
+      url: "https://www.wamu.com/"
+    },
+    {
+      id: 9,
+      category: "Professional",
+      name: "RR DONNELLEY (LS2 CENTRUM)",
+      company: "RR Donnelley",
+      duration: "April 2007 – February 2009",
+      description: "Large publication, catalog and commercial printer website - works primarily with large established publishers",
+      role: "UI Developer",
+      highlights: [
+        "Designed and developed user interface",
+        "Created image assets and graphics editing",
+        "Developed UI pages using C#.NET and HTML",
+        "Worked with 6-member team",
+        "Managed publication and catalog designs"
+      ],
+      technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
+      url: "https://tntls2centrum.rrd.com/LSCentrum/default.aspx"
+    },
+    {
+      id: 10,
+      category: "Professional",
+      name: "eCAS (Custom Automation System)",
+      company: "Bahrain International Airport",
+      duration: "February 2007 – April 2009",
+      description: "Custom Automation System for Bahrain International Airport handling customs operations and automation",
+      role: "UI Developer",
+      highlights: [
+        "Designed and developed user interface for customs system",
+        "Created image assets and UI components",
+        "Developed UI pages using C#.NET and HTML",
+        "Worked with 8-member team",
+        "Enhanced customs automation workflows"
+      ],
+      technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
+      url: "http://www.bahraincustoms.gov.bh/customs/en/"
     }
   ],
 
