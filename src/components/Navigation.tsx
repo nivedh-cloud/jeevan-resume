@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Download } from 'lucide-react';
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +12,50 @@ export const Navigation = () => {
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
   ];
+
+  const handleDownloadResume = async () => {
+    try {
+      // Get the base path from the current location
+      const basePath = window.location.pathname.split('/jeevan-resume')[0] + '/jeevan-resume';
+      const fileUrl = basePath + '/Jeevan_Prabhath_Resume.pdf';
+
+      // Try to use File System Access API for folder selection (modern browsers)
+      if ('showSaveFilePicker' in window) {
+        try {
+          const handle = await (window as any).showSaveFilePicker({
+            suggestedName: 'Jeevan_Prabhath_Resume.pdf',
+            types: [{ description: 'PDF Files', accept: { 'application/pdf': ['.pdf'] } }],
+          });
+
+          const response = await fetch(fileUrl);
+          if (!response.ok) throw new Error('Failed to fetch file');
+          
+          const blob = await response.blob();
+          const writable = await handle.createWritable();
+          await writable.write(blob);
+          await writable.close();
+        } catch (error: any) {
+          // If user cancels file picker or an error occurs, use fallback
+          if (error.name === 'AbortError') {
+            return; // User cancelled
+          }
+          throw error;
+        }
+      } else {
+        // Fallback: simple download to browser's default downloads folder
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'Jeevan_Prabhath_Resume.pdf';
+        link.setAttribute('target', '_blank');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    } catch (error) {
+      console.error('Download failed:', error);
+      alert('Failed to download resume. Please try again.');
+    }
+  };
 
   return (
     <motion.nav
@@ -51,6 +95,18 @@ export const Navigation = () => {
               {item.name}
             </motion.a>
           ))}
+          <motion.button
+            onClick={handleDownloadResume}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 + navItems.length * 0.1 }}
+            className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all font-medium"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <Download size={18} />
+            Download Resume
+          </motion.button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -91,6 +147,18 @@ export const Navigation = () => {
                 {item.name}
               </motion.a>
             ))}
+            <motion.button
+              onClick={() => {
+                handleDownloadResume();
+                setIsOpen(false);
+              }}
+              className="w-full flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg hover:from-blue-600 hover:to-purple-700 transition-all font-medium mt-4"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Download size={18} />
+              Download Resume
+            </motion.button>
           </div>
         </motion.div>
       )}
