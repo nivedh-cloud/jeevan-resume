@@ -49,13 +49,16 @@ export const Hero = () => {
           <span className="gradient-text">{resumeData.tagline}</span>
         </motion.p>
 
-        {/* <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-blue-400 mb-6 font-light">
-          Technical Lead – Frontend Developer (React)
-        </motion.p> */}
-
-        <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          React Frontend Developer with 10+ years of experience building scalable, high-performance web applications and real-time dashboards. Skilled in modern JavaScript (ES6+), component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.
+        <motion.p 
+          variants={itemVariants}
+          className="text-lg text-gray-300 font-light text-left mb-8 max-w-3xl mx-auto"
+        >
+          {resumeData.experienceHeadline}
         </motion.p>
+
+        {/* <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
+          React Frontend Developer with 10+ years of experience building scalable, high-performance web applications and real-time dashboards. Skilled in modern JavaScript (ES6+), component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.
+        </motion.p> */}
 
         <motion.div variants={itemVariants} className="flex gap-4 justify-center flex-wrap mb-12">
           <a href="mailto:prabhath.jeevan@gmail.com" className="backdrop-blur-md bg-blue-600/80 hover:bg-blue-600 px-8 py-3 rounded-lg font-semibold transition-all border border-blue-400/50 hover:shadow-xl shadow-lg">
