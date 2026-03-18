@@ -21,16 +21,16 @@ export const resumeData = {
       position: "Technical Lead – UI",
       duration: "March 2015 – Present",
       location: "India",
-      description: "Leading a 35-member team in building the ORBCOMM Platform - an industrial IoT and M2M communication system",
+      description: "Leading a team in building the ORBCOMM Platform - an industrial IoT and M2M communication system",
       highlights: [
-        "Acted as Module Lead for 35-member team",
+        "Acted as Module Lead for a team",
         "Architected transition from legacy systems to modern ReactJS",
-        
-        "Developed real-time asset tracking with Google Maps API",
+        "Built interactive dashboards for real-time data visualization",
+        "Developed live asset tracking system with Google Maps API",
         "Optimized frontend for high-frequency IoT data streams",
-        "Created reusable component libraries using Kendo UI"
+        "Created reusable component libraries."
       ],
-      technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Kendo", "Bootstrap", "LESS"]
+      technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Bootstrap", "LESS", "Figma"]
     },
     {
       id: 2,
@@ -90,7 +90,8 @@ export const resumeData = {
           highlights: [
             "Acted as Module Lead for 35-member team",
             "Architected transition from legacy systems to modern ReactJS",
-            "Developed real-time asset tracking with Google Maps API",
+            "Built interactive dashboards for real-time data visualization",
+            "Developed live asset tracking system with Google Maps API",
             "Optimized frontend for high-frequency IoT data streams",
             "Created reusable component libraries using Kendo UI"
           ],

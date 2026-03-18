@@ -94,7 +94,7 @@ export const Experience = () => {
                       <h4 className="text-sm font-bold text-blue-400 mb-2">Technologies:</h4>
                       <div className="flex flex-wrap gap-2">
                         {job.technologies.map((tech) => (
-                          <span key={tech} className="px-2 py-1 bg-blue-500 bg-opacity-20 text-grey-300 text-xs rounded">
+                          <span key={tech} className="px-2 py-1 bg-blue-500 bg-opacity-20 text-black text-xs rounded">
                             {tech}
                           </span>
                         ))}
