@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { resumeData } from '../data/resumeData';
 
 export const Hero = () => {
   const containerVariants = {
@@ -44,12 +45,16 @@ export const Hero = () => {
           <span className="gradient-text">P Jeevan Prabhath</span>
         </motion.h1>
 
-        <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-blue-400 mb-6 font-light">
-          Technical Lead – Frontend Developer (React)
+        <motion.p variants={itemVariants} className="text-lg mb-6 tracking-wider font-semibold">
+          <span className="gradient-text">{resumeData.tagline}</span>
         </motion.p>
 
+        {/* <motion.p variants={itemVariants} className="text-2xl md:text-3xl text-blue-400 mb-6 font-light">
+          Technical Lead – Frontend Developer (React)
+        </motion.p> */}
+
         <motion.p variants={itemVariants} className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-          15+ years of experience building high-performance, responsive web applications using modern technologies. Currently working as Technical Lead UI at Orbcomm.
+          React Frontend Developer with 10+ years of experience building scalable, high-performance web applications and real-time dashboards. Skilled in modern JavaScript (ES6+), component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.
         </motion.p>
 
         <motion.div variants={itemVariants} className="flex gap-4 justify-center flex-wrap mb-12">
