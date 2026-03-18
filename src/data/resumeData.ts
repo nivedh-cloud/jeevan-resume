@@ -174,7 +174,7 @@ export const resumeData = {
             "High-performance dashboard handling thousands of IoT devices",
             "Advanced UI components with Kendo UI"
           ],
-          technologies: ["ReactJS", "TypeScript", "Google Maps API", "Map Clusters", "Drawing Geofences", "Ploting Geofences", "Material UI", "Kendo", "Bootstrap"],
+          technologies: ["ReactJS", "TypeScript", "Google Maps API", "Rest API Integration", "WebSockets", "Map Clusters", "Drawing Geofences", "Ploting Geofences", "Material UI", "Kendo", "Bootstrap","CSS3", "LESS"],
           url: "https://www.orbcomm.com/"
         },
         {
