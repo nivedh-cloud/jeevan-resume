@@ -195,7 +195,7 @@ const ProjectCard = ({ project, hoveredId, setHoveredId, setSelectedProject, ite
           )}
         </div>
 
-        <p className="text-xs text-gray-400 mb-3">{project.duration}</p>
+        {/* <p className="text-xs text-gray-400 mb-3">{project.duration}</p> */}
         <p className="text-gray-300 text-sm mb-4 flex-1">{project.description}</p>
 
         {/* Highlights */}
