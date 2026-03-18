@@ -6,7 +6,7 @@ export const resumeData = {
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
-    frontend: ["ReactJs", "HTML5", "CSS3", "JavaScript", "Zustand", "Redux Toolkit","TypeScript", "HighCharts", "Google Maps API", "D3.js",  "jQuery", "Nodejs","Vite", "ExtJS"],
+    frontend: ["ReactJs", "HTML5", "CSS3", "JavaScript", "ES6","Zustand", "Redux Toolkit","TypeScript", "HighCharts", "Google Maps API", "Map Clusters","Geo Fences", "D3.js",  "jQuery", "Nodejs","Vite", "ExtJS"],
     frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
     devops: ["Git", "Jira", "Argo", "Github Copilot", "Jenkins", "Agile"],
     backend: ["REST APIs Integration","WebSockets Integration",  "JSON", "AJAX"],
@@ -231,6 +231,28 @@ export const resumeData = {
           ],
           technologies: ["ReactJS", "JavaScript", "REST APIs", "JSON", "HTML5", "CSS3"],
           url: "https://www.orbcomm.com/"
+        }
+      ]
+    },
+    {
+      company: "Verizon Data Services India Pvt Ltd",
+      projects: [
+        {
+          id: 14,
+          category: "Professional",
+          name: "Access Provisioning Control",
+          company: "Verizon Data Services India Pvt Ltd",
+          duration: "July 2012 – July 2014",
+          description: "Large-scale access provisioning control system for managing and provisioning network access",
+          role: "Senior Software Engineer",
+          highlights: [
+            "Developed UI for large-scale access control system",
+            "Worked with 35-member team on Java-based environment",
+            "Implemented responsive web designs with modern UI patterns",
+            "Built interactive interfaces for access management and provisioning workflows"
+          ],
+          technologies: ["HTML5", "CSS3", "Bootstrap", "Less", "jQuery", "JavaScript", "ExtJs"],
+          url: "https://www.verizon.com/"
         }
       ]
     },
