@@ -20,6 +20,7 @@ export const resumeData = {
     {
       id: 1,
       company: "Orbcomm India Pvt Ltd",
+      
       position: "Technical Lead – UI",
       duration: "March 2015 – Present",
       location: "India",
