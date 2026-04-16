@@ -17,13 +17,13 @@ export const Navigation = () => {
     try {
       // Get the base path from the current location
       const basePath = window.location.pathname.split('/jeevan-resume')[0] + '/jeevan-resume';
-      const fileUrl = basePath + '/Jeevan_Prabhath_Resume.pdf';
+      const fileUrl = basePath + '/Jeevan_Prabhath_Senior_React_Dev.pdf';
 
       // Try to use File System Access API for folder selection (modern browsers)
       if ('showSaveFilePicker' in window) {
         try {
           const handle = await (window as any).showSaveFilePicker({
-            suggestedName: 'Jeevan_Prabhath_Resume.pdf',
+            suggestedName: 'Jeevan_Prabhath_Senior_React_Dev.pdf',
             types: [{ description: 'PDF Files', accept: { 'application/pdf': ['.pdf'] } }],
           });
 
@@ -45,7 +45,7 @@ export const Navigation = () => {
         // Fallback: simple download to browser's default downloads folder
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = 'Jeevan_Prabhath_Resume.pdf';
+        link.download = 'Jeevan_Prabhath_Senior_React_Dev.pdf';
         link.setAttribute('target', '_blank');
         document.body.appendChild(link);
         link.click();
