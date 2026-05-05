@@ -390,24 +390,6 @@ export const resumeData = {
       company: "Personal Projects",
       projects: [
         {
-          id: 15,
-          category: "Personal",
-          name: "World Atlas & Country Info",
-          company: "Personal Project",
-          duration: "2026 – Present",
-          description: "PWA for exploring countries, geography, and regional insights through an interactive world map and country information panels. Designed for fast discovery of location-based details with a mobile-friendly experience.",
-          role: "Frontend Developer",
-          highlights: [
-            "Built interactive world map navigation with country-level exploration",
-            "Developed searchable country info views with quick-access details",
-            "Implemented Progressive Web App features for installable, app-like usage",
-            "Optimized responsive UI for desktop and mobile devices",
-            "Designed clean visual layouts for geography-focused learning"
-          ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
-          url: "https://nivedh-cloud.github.io/world-atlas/"
-        },
-        {
           id: 17,
           category: "Personal",
           name: "AI Personal Assistant",
@@ -424,6 +406,24 @@ export const resumeData = {
           ],
           technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI"],
           url: "https://nivedh-cloud.github.io/AI-Chatbot/"
+        },
+        {
+          id: 15,
+          category: "Personal",
+          name: "World Atlas & Country Info",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "PWA for exploring countries, geography, and regional insights through an interactive world map and country information panels. Designed for fast discovery of location-based details with a mobile-friendly experience.",
+          role: "Frontend Developer",
+          highlights: [
+            "Built interactive world map navigation with country-level exploration",
+            "Developed searchable country info views with quick-access details",
+            "Implemented Progressive Web App features for installable, app-like usage",
+            "Optimized responsive UI for desktop and mobile devices",
+            "Designed clean visual layouts for geography-focused learning"
+          ],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
+          url: "https://nivedh-cloud.github.io/world-atlas/"
         },
         {
           id: 16,
