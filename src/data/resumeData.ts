@@ -390,6 +390,60 @@ export const resumeData = {
       company: "Personal Projects",
       projects: [
         {
+          id: 15,
+          category: "Personal",
+          name: "World Atlas & Country Info",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "PWA for exploring countries, geography, and regional insights through an interactive world map and country information panels. Designed for fast discovery of location-based details with a mobile-friendly experience.",
+          role: "Frontend Developer",
+          highlights: [
+            "Built interactive world map navigation with country-level exploration",
+            "Developed searchable country info views with quick-access details",
+            "Implemented Progressive Web App features for installable, app-like usage",
+            "Optimized responsive UI for desktop and mobile devices",
+            "Designed clean visual layouts for geography-focused learning"
+          ],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
+          url: "https://nivedh-cloud.github.io/world-atlas/"
+        },
+        {
+          id: 17,
+          category: "Personal",
+          name: "AI Personal Assistant",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "AI-powered PWA chatbot assistant designed for conversational support and quick information access through a clean, responsive web interface.",
+          role: "Frontend Developer",
+          highlights: [
+            "Built chat-based assistant interface focused on usability and clarity",
+            "Implemented Progressive Web App capabilities for installable app-like access",
+            "Designed responsive layouts for smooth usage across mobile and desktop",
+            "Created reusable UI components for messages, prompts, and interactions",
+            "Optimized user experience for fast conversational workflows"
+          ],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI"],
+          url: "https://nivedh-cloud.github.io/AI-Chatbot/"
+        },
+        {
+          id: 16,
+          category: "Personal",
+          name: "BibleChronos (Bible Trace Maps)",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "Bilingual PWA for biblical history exploration with dual chronology modes, interactive timelines, animated genealogies, and journey maps. Helps learners study scripture context through visual, map-first storytelling.",
+          role: "Frontend Developer",
+          highlights: [
+            "Implemented dual chronology support (Ussher and Josephus) with instant timeline switching",
+            "Built animated biblical journey maps with playback controls and waypoint details",
+            "Created interactive genealogy explorer with expandable family tree navigation",
+            "Added bilingual English and Telugu support with scripture-linked references",
+            "Delivered installable PWA experience optimized for mobile and touch devices"
+          ],
+          technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n"],
+          url: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
+        },
+        {
           id: 5,
           category: "Personal",
           name: "FriendLocator",
@@ -408,42 +462,6 @@ export const resumeData = {
           ],
           technologies: ["React", "TypeScript", "Tailwind CSS", "Capacitor", "Google Maps API", "FastAPI", "Python", "MySQL", "JWT Auth", "REST API", "Railway", "Docker", "Vercel"],
           url: ""
-        },
-        {
-          id: 6,
-          category: "Personal",
-          name: "World Timeline",
-          company: "Personal Project",
-          duration: "2024 – Present",
-          description: "Interactive historical timeline showcasing major civilizations and events across the globe from 4000 BC to modern era. Displays concurrent events across different regions, cultures, and civilizations with detailed information about political, cultural, and technological developments.",
-          role: "Full Stack Developer",
-          highlights: [
-            "Interactive timeline with multiple civilizations and regions",
-            "Chronological event tracking from 4000 BC to present",
-            "Geographic-based event categorization (Europe, Asia, Americas, Africa)",
-            "Real-time year navigation and filtering",
-            "Responsive design for all devices"
-          ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "Bootstrap", "Responsive Design"],
-          url: "https://nivedh-cloud.github.io/the-world-timeline/"
-        },
-        {
-          id: 7,
-          category: "Personal",
-          name: "The Wisdom Mountain",
-          company: "Personal Project",
-          duration: "2024 – Present",
-          description: "Educational visual timeline project depicting biblical history from Adam through Jesus Christ. Features an interactive timeline of significant biblical events, patriarchs, prophets, and historical milestones spanning thousands of years with detailed cultural and historical context.",
-          role: "Full Stack Developer & UX Designer",
-          highlights: [
-            "Comprehensive biblical timeline with detailed narratives",
-            "Interactive navigation through historical periods",
-            "Visual hierarchy and information design for complex historical data",
-            "Educational content presentation",
-            "Mobile-responsive layout"
-          ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "Interactive UI", "Educational Design"],
-          url: "https://nivedh-cloud.github.io/The-Wisdom-Mountain/adam-to-jesus"
         }
       ]
     }
