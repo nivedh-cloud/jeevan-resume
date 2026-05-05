@@ -2,9 +2,9 @@ export const resumeData = {
   name: "P Jeevan Prabhath",
   email: "prabhath.jeevan@gmail.com",
   phone: "+91 9966429688",
-  headline: "Frontend Developer (React) with 10+ Years Experience",
-  tagline: "Technical Lead | React Developer | 10+ Years Experience | Building Scalable UI & Dashboards",
-  experienceHeadline: "                  Senior React Frontend Developer with 10+ years of experience building scalable, high-performance web and mobile applications and real-time dashboards. Skilled in modern JavaScript (ES6+), Specialized in the React ecosystem and Hybrid Mobile Development using Capacitor. Proven track record of leading technical teams at top-tier companies like Orbcomm component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.",
+  headline: "Frontend Developer (React) with 15+ Years Experience",
+  tagline: "Technical Lead | React Developer | 15+ Years Experience | Building Scalable UI & Dashboards",
+  experienceHeadline: "                  Senior React Frontend Developer with 15+ years of experience building scalable, high-performance web and mobile applications and real-time dashboards. Skilled in modern JavaScript (ES6+), Specialized in the React ecosystem and Hybrid Mobile Development using Capacitor. Proven track record of leading technical teams at top-tier companies like Orbcomm component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.",
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
@@ -64,16 +64,15 @@ export const resumeData = {
     },
     {
       id: 6,
-      company: "PB Systems Inc",
-      position: "Web Designer / Frontend Developer",
-      duration: "October 2006 – April 2009",
-      location: "USA",
+      company: "Vriddhi Technologies",
+      position: "Web Developer / Frontend Developer",
+      duration: "October 2009 – December 2011",
+      location: "India",
       description: "UI design and frontend development for multiple enterprise projects",
       highlights: [
         "Designed UI layouts and frontend interfaces for enterprise clients",
-        "Created graphics and UI assets using Photoshop and Flash",
         "Developed frontend interfaces using HTML, CSS and JavaScript",
-        "Worked on DIRECTV, XpertEMR, WAMU, RR Donnelley, and Bahrain Airport projects"
+        "RR Donnelley, and Bahrain Airport projects"
       ],
       technologies: ["HTML", "CSS", "JavaScript", "Photoshop", "Flash", "Quark XPress"]
     }
@@ -159,6 +158,85 @@ export const resumeData = {
   ],
 
   projectsByCompany: [
+    {
+      company: "Personal Projects",
+      projects: [
+        {
+          id: 17,
+          category: "Personal",
+          name: "AI Personal Assistant",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "AI-powered PWA chatbot assistant designed for conversational support and quick information access through a clean, responsive web interface.",
+          role: "Frontend Developer",
+          highlights: [
+            "Built chat-based assistant interface focused on usability and clarity",
+            "Implemented Progressive Web App capabilities for installable app-like access",
+            "Designed responsive layouts for smooth usage across mobile and desktop",
+            "Created reusable UI components for messages, prompts, and interactions",
+            "Optimized user experience for fast conversational workflows"
+          ],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI"],
+          url: "https://nivedh-cloud.github.io/AI-Chatbot/"
+        },
+        {
+          id: 15,
+          category: "Personal",
+          name: "World Atlas & Country Info",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "PWA for exploring countries, geography, and regional insights through an interactive world map and country information panels. Designed for fast discovery of location-based details with a mobile-friendly experience.",
+          role: "Frontend Developer",
+          highlights: [
+            "Built interactive world map navigation with country-level exploration",
+            "Developed searchable country info views with quick-access details",
+            "Implemented Progressive Web App features for installable, app-like usage",
+            "Optimized responsive UI for desktop and mobile devices",
+            "Designed clean visual layouts for geography-focused learning"
+          ],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
+          url: "https://nivedh-cloud.github.io/world-atlas/"
+        },
+        {
+          id: 16,
+          category: "Personal",
+          name: "BibleChronos (Bible Trace Maps)",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "Bilingual PWA for biblical history exploration with dual chronology modes, interactive timelines, animated genealogies, and journey maps. Helps learners study scripture context through visual, map-first storytelling.",
+          role: "Frontend Developer",
+          highlights: [
+            "Implemented dual chronology support (Ussher and Josephus) with instant timeline switching",
+            "Built animated biblical journey maps with playback controls and waypoint details",
+            "Created interactive genealogy explorer with expandable family tree navigation",
+            "Added bilingual English and Telugu support with scripture-linked references",
+            "Delivered installable PWA experience optimized for mobile and touch devices"
+          ],
+          technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n"],
+          url: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
+        },
+        {
+          id: 5,
+          category: "Personal",
+          name: "FriendLocator",
+          company: "Personal Project",
+          duration: "2026 – Present",
+          description: "Full-stack GPS tracking app for real-time friend location sharing with live updates and geofencing. Enables users to share their location with friends, receive live updates, and set geofence alerts.",
+          role: "Full Stack Developer",
+          highlights: [
+            "Real-time location tracking with live updates",
+            "Friend request management system",
+            "Location history playback and visualization",
+            "Battery monitoring for devices",
+            "Offline status detection",
+            "Geofence alerts and notifications",
+            "Responsive dashboard interface"
+          ],
+          technologies: ["React", "TypeScript", "Tailwind CSS", "Capacitor", "Google Maps API", "FastAPI", "Python", "MySQL", "JWT Auth", "REST API", "Railway", "Docker", "Vercel"],
+          url: ""
+        }
+      ]
+    },
     {
       company: "Orbcomm India Pvt Ltd",
       projects: [
@@ -291,177 +369,6 @@ export const resumeData = {
           role: "UX and UI Developer",
           technologies: [".NET", "N2CMS", "jQuery", "HTML", "CSS"],
           url: "http://communitycreditunion.org/"
-        }
-      ]
-    },
-    {
-      company: "PB Systems Inc",
-      projects: [
-        {
-          id: 4,
-          category: "Professional",
-          name: "DIRECTV",
-          company: "PB Systems Inc",
-          duration: "October 2006 – April 2009",
-          description: "Leading digital TV provider website",
-          role: "UI Developer & Designer",
-          highlights: [
-            "Site maintenance and enhancements",
-            "Brochure and slider design",
-            "Image editing and optimization"
-          ],
-          technologies: ["Quark XPress", "Photoshop", "Flash", "HTML", "JavaScript"],
-          url: "https://www.directv.com/"
-        },
-        {
-          id: 7,
-          category: "Professional",
-          name: "XpertEMR",
-          company: "PB Systems Inc",
-          duration: "December 2007 – March 2009",
-          description: "Electronic Medical Records (EMR) system for healthcare providers",
-          role: "UI Developer",
-          highlights: [
-            "Designed and developed user interface for EMR system",
-            "Created image assets and UI elements",
-            "Developed UI pages using C#.NET and HTML",
-            "Worked with 15-member team"
-          ],
-          technologies: ["C#.NET 2005", "Flash", "Photoshop", "Dreamweaver", "HTML", "JavaScript"],
-          url: "http://xpertemr.com/"
-        },
-        {
-          id: 8,
-          category: "Professional",
-          name: "WAMU (Washington Mutual)",
-          company: "PB Systems Inc",
-          duration: "March 2008 – January 2009",
-          description: "Financial services website for Washington Mutual, Inc., a leading financial services company handling consumer and small to mid-sized business operations",
-          role: "UI Developer",
-          highlights: [
-            "Designed and developed initial mockups",
-            "Created user interface design and layout",
-            "Image creation and editing for web",
-            "Developed UI pages using C#.NET and HTML",
-            "Created engaging look and feel for customers"
-          ],
-          technologies: ["C#.NET 2005", "Xmpie", "Photoshop", "HTML", "JavaScript"],
-          url: "https://www.wamu.com/"
-        },
-        {
-          id: 9,
-          category: "Professional",
-          name: "RR DONNELLEY (LS2 CENTRUM)",
-          company: "PB Systems Inc",
-          duration: "April 2007 – February 2009",
-          description: "Large publication, catalog and commercial printer website - works primarily with large established publishers",
-          role: "UI Developer",
-          highlights: [
-            "Designed and developed user interface",
-            "Created image assets and graphics editing",
-            "Developed UI pages using C#.NET and HTML",
-            "Worked with 6-member team",
-            "Managed publication and catalog designs"
-          ],
-          technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
-          url: "https://tntls2centrum.rrd.com/LSCentrum/default.aspx"
-        },
-        {
-          id: 10,
-          category: "Professional",
-          name: "eCAS (Custom Automation System)",
-          company: "PB Systems Inc",
-          duration: "February 2007 – April 2009",
-          description: "Custom Automation System for Bahrain International Airport handling customs operations and automation",
-          role: "UI Developer",
-          highlights: [
-            "Designed and developed user interface for customs system",
-            "Created image assets and UI components",
-            "Developed UI pages using C#.NET and HTML",
-            "Worked with 8-member team",
-            "Enhanced customs automation workflows"
-          ],
-          technologies: ["C#.NET 2005", "Flash", "Photoshop", "HTML", "JavaScript"],
-          url: "http://www.bahraincustoms.gov.bh/customs/en/"
-        }
-      ]
-    },
-    {
-      company: "Personal Projects",
-      projects: [
-        {
-          id: 17,
-          category: "Personal",
-          name: "AI Personal Assistant",
-          company: "Personal Project",
-          duration: "2026 – Present",
-          description: "AI-powered PWA chatbot assistant designed for conversational support and quick information access through a clean, responsive web interface.",
-          role: "Frontend Developer",
-          highlights: [
-            "Built chat-based assistant interface focused on usability and clarity",
-            "Implemented Progressive Web App capabilities for installable app-like access",
-            "Designed responsive layouts for smooth usage across mobile and desktop",
-            "Created reusable UI components for messages, prompts, and interactions",
-            "Optimized user experience for fast conversational workflows"
-          ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI"],
-          url: "https://nivedh-cloud.github.io/AI-Chatbot/"
-        },
-        {
-          id: 15,
-          category: "Personal",
-          name: "World Atlas & Country Info",
-          company: "Personal Project",
-          duration: "2026 – Present",
-          description: "PWA for exploring countries, geography, and regional insights through an interactive world map and country information panels. Designed for fast discovery of location-based details with a mobile-friendly experience.",
-          role: "Frontend Developer",
-          highlights: [
-            "Built interactive world map navigation with country-level exploration",
-            "Developed searchable country info views with quick-access details",
-            "Implemented Progressive Web App features for installable, app-like usage",
-            "Optimized responsive UI for desktop and mobile devices",
-            "Designed clean visual layouts for geography-focused learning"
-          ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
-          url: "https://nivedh-cloud.github.io/world-atlas/"
-        },
-        {
-          id: 16,
-          category: "Personal",
-          name: "BibleChronos (Bible Trace Maps)",
-          company: "Personal Project",
-          duration: "2026 – Present",
-          description: "Bilingual PWA for biblical history exploration with dual chronology modes, interactive timelines, animated genealogies, and journey maps. Helps learners study scripture context through visual, map-first storytelling.",
-          role: "Frontend Developer",
-          highlights: [
-            "Implemented dual chronology support (Ussher and Josephus) with instant timeline switching",
-            "Built animated biblical journey maps with playback controls and waypoint details",
-            "Created interactive genealogy explorer with expandable family tree navigation",
-            "Added bilingual English and Telugu support with scripture-linked references",
-            "Delivered installable PWA experience optimized for mobile and touch devices"
-          ],
-          technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n"],
-          url: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
-        },
-        {
-          id: 5,
-          category: "Personal",
-          name: "FriendLocator",
-          company: "Personal Project",
-          duration: "2026 – Present",
-          description: "Full-stack GPS tracking app for real-time friend location sharing with live updates and geofencing. Enables users to share their location with friends, receive live updates, and set geofence alerts.",
-          role: "Full Stack Developer",
-          highlights: [
-            "Real-time location tracking with live updates",
-            "Friend request management system",
-            "Location history playback and visualization",
-            "Battery monitoring for devices",
-            "Offline status detection",
-            "Geofence alerts and notifications",
-            "Responsive dashboard interface"
-          ],
-          technologies: ["React", "TypeScript", "Tailwind CSS", "Capacitor", "Google Maps API", "FastAPI", "Python", "MySQL", "JWT Auth", "REST API", "Railway", "Docker", "Vercel"],
-          url: ""
         }
       ]
     }

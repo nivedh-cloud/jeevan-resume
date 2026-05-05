@@ -8,17 +8,21 @@ export const Projects = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
   const [selectedProject, setSelectedProject] = useState<any | null>(null);
 
-  // Organize projects by category and company
-  const groupedProjects = resumeData.projectsByCompany.reduce((acc, companyGroup) => {
-    companyGroup.projects.forEach(project => {
-      const category = (project as any).category || 'Other';
-      if (!acc[category]) {
-        acc[category] = [];
-      }
-      acc[category].push(project);
-    });
-    return acc;
-  }, {} as Record<string, any[]>);
+  // Keep UI order fixed: Professional first, then Personal
+  const { professionalProjects, personalProjects } = resumeData.projectsByCompany.reduce(
+    (acc, companyGroup) => {
+      companyGroup.projects.forEach((project: any) => {
+        const category = project.category || 'Other';
+        if (category === 'Professional') {
+          acc.professionalProjects.push(project);
+        } else if (category === 'Personal') {
+          acc.personalProjects.push(project);
+        }
+      });
+      return acc;
+    },
+    { professionalProjects: [] as any[], personalProjects: [] as any[] }
+  );
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -64,46 +68,10 @@ export const Projects = () => {
           Notable Projects
         </motion.h2>
 
-        {/* Professional Projects Section */}
-        {groupedProjects['Professional'] && (
+        {/* Personal Projects Section */}
+        {personalProjects.length > 0 && (
           <motion.div
             className="mb-16"
-            variants={sectionVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-          >
-            <motion.h3
-              variants={itemVariants}
-              className="text-2xl md:text-3xl font-bold mb-8 text-blue-400"
-            >
-              Professional Projects
-            </motion.h3>
-
-            <motion.div
-              className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-            >
-              {groupedProjects['Professional'].map((project: any) => (
-                <ProjectCard
-                  key={project.id}
-                  project={project}
-                  hoveredId={hoveredId}
-                  setHoveredId={setHoveredId}
-                  setSelectedProject={setSelectedProject}
-                  itemVariants={itemVariants}
-                />
-              ))}
-            </motion.div>
-          </motion.div>
-        )}
-
-        {/* Personal Projects Section */}
-        {groupedProjects['Personal'] && (
-          <motion.div
             variants={sectionVariants}
             initial="hidden"
             whileInView="visible"
@@ -123,7 +91,43 @@ export const Projects = () => {
               whileInView="visible"
               viewport={{ once: true }}
             >
-              {groupedProjects['Personal'].map((project: any) => (
+              {personalProjects.map((project: any) => (
+                <ProjectCard
+                  key={project.id}
+                  project={project}
+                  hoveredId={hoveredId}
+                  setHoveredId={setHoveredId}
+                  setSelectedProject={setSelectedProject}
+                  itemVariants={itemVariants}
+                />
+              ))}
+            </motion.div>
+          </motion.div>
+        )}
+
+        {/* Professional Projects Section */}
+        {professionalProjects.length > 0 && (
+          <motion.div
+            variants={sectionVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+          >
+            <motion.h3
+              variants={itemVariants}
+              className="text-2xl md:text-3xl font-bold mb-8 text-blue-400"
+            >
+              Professional Projects
+            </motion.h3>
+
+            <motion.div
+              className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
+              variants={containerVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              {professionalProjects.map((project: any) => (
                 <ProjectCard
                   key={project.id}
                   project={project}
