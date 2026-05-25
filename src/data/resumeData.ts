@@ -4,19 +4,37 @@ export const resumeData = {
   phone: "+91 9966429688",
   headline: "Frontend Developer (React) with 15+ Years Experience",
   tagline: "Technical Lead | React Developer | 15+ Years Experience | Building Scalable UI & Dashboards",
-  experienceHeadline: "                  Senior React Frontend Developer with 15+ years of experience building scalable, high-performance web and mobile applications and real-time dashboards. Skilled in modern JavaScript (ES6+), Specialized in the React ecosystem and Hybrid Mobile Development using Capacitor. Proven track record of leading technical teams at top-tier companies like Orbcomm component-driven architecture, and data visualization. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.",
+  experienceHeadline: "Senior React Frontend Developer with 15+ years of experience building scalable, high-performance web and mobile applications and real-time dashboards. Skilled in modern JavaScript (ES6+), specialized in the React ecosystem and Hybrid Mobile Development using Capacitor. Proven track record of leading technical teams at top-tier companies like Orbcomm with component-driven architecture and data visualization. Leveraging AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design. Experienced in developing reusable UI components, responsive web applications, optimizing performance, and delivering clean, maintainable solutions in fast-paced product environments.",
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
     frontend: ["ReactJs", "HTML5", "CSS3", "JavaScript", "ES6+","Zustand", "Redux Toolkit","TypeScript", "Capacitor","HighCharts", "Vite", "Google Maps API","Eslint", "D3.js", "Nodejs"],
     frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
-    devops: ["Git", "Jira", "Argo", "Github Copilot" , "Jenkins", "Agile"],
+    devops: ["Git", "Jira", "Argo", "Jenkins", "Agile"],
     backend: ["REST APIs Integration","WebSockets Integration",  "JSON", "AJAX"],
+    aiPoweredDevTools: ["Cursor AI", "GitHub Copilot", "GitHub Copilot Workspace", "LLM Prompts Integration"],
     tools: ["Visual Studio", "Visual Studio Code", "WebStorm", "Cursor","IntelliJ IDEA", "Photoshop", "Adobe Suite", "Figma"],
     other: ["Responsive Design", "Cross-browser Compatibility", "UI/UX Design", "Test"]
   },
 
   experience: [
+    {
+      id: 100,
+      company: "",
+      position: "Personal Projects – Frontend / Full Stack Developer",
+      duration: "2026 – Present",
+      location: "Self-Initiated",
+      description: "Independently designed, built, and shipped multiple PWAs and full-stack applications spanning AI chat, geographic exploration, biblical history visualization, and real-time GPS tracking.",
+      highlights: [
+        "AI Personal Assistant: built a PWA chatbot interface with reusable UI components and installable app-like access",
+        "World Atlas & Country Info: developed an interactive world map PWA with searchable country views and responsive layouts",
+        "BibleChronos (Bible Trace Maps): delivered a bilingual PWA with dual chronology timelines, animated journey maps, and an interactive genealogy explorer",
+        "FriendLocator: shipped a full-stack GPS tracking app with real-time location sharing, geofence alerts, and a responsive dashboard",
+        "Architected component-driven, mobile-first UIs and integrated REST APIs, WebSockets, Google Maps, and Capacitor for native-like experiences",
+        "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
+      ],
+      technologies: ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Capacitor", "PWA", "D3.js", "Google Maps API", "FastAPI", "Python", "MySQL", "REST APIs", "JWT Auth", "i18n", "Cursor AI", "GitHub Copilot"]
+    },
     {
       id: 1,
       company: "Orbcomm India Pvt Ltd",
@@ -30,9 +48,10 @@ export const resumeData = {
         "Built interactive dashboards for real-time data visualization",
         "Developed live asset tracking system with Google Maps API",
         "Optimized frontend for high-frequency IoT data streams",
-        "Created reusable component libraries."
+        "Created reusable component libraries.",
+        "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
       ],
-      technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Bootstrap", "LESS", "Figma"]
+      technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Bootstrap", "LESS", "Figma", "Cursor AI", "GitHub Copilot"]
     },
     {
       id: 2,
@@ -94,9 +113,10 @@ export const resumeData = {
             "Built interactive dashboards for real-time data visualization",
             "Developed live asset tracking system with Google Maps API",
             "Optimized frontend for high-frequency IoT data streams",
-            "Created reusable component libraries using ReactJS and TypeScript"
+            "Created reusable component libraries using ReactJS and TypeScript",
+            "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
-          technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Kendo", "Bootstrap", "LESS"]
+          technologies: ["ReactJS", "TypeScript", "HighCharts", "Google Maps API", "Material UI", "Kendo", "Bootstrap", "LESS", "Cursor AI", "GitHub Copilot"]
         }
       ]
     },
@@ -174,9 +194,10 @@ export const resumeData = {
             "Implemented Progressive Web App capabilities for installable app-like access",
             "Designed responsive layouts for smooth usage across mobile and desktop",
             "Created reusable UI components for messages, prompts, and interactions",
-            "Optimized user experience for fast conversational workflows"
+            "Optimized user experience for fast conversational workflows",
+            "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI"],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Chat UI", "Cursor AI", "GitHub Copilot"],
           url: "https://nivedh-cloud.github.io/AI-Chatbot/"
         },
         {
@@ -192,9 +213,10 @@ export const resumeData = {
             "Developed searchable country info views with quick-access details",
             "Implemented Progressive Web App features for installable, app-like usage",
             "Optimized responsive UI for desktop and mobile devices",
-            "Designed clean visual layouts for geography-focused learning"
+            "Designed clean visual layouts for geography-focused learning",
+            "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
-          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps"],
+          technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps", "Cursor AI", "GitHub Copilot"],
           url: "https://nivedh-cloud.github.io/world-atlas/"
         },
         {
@@ -210,9 +232,10 @@ export const resumeData = {
             "Built animated biblical journey maps with playback controls and waypoint details",
             "Created interactive genealogy explorer with expandable family tree navigation",
             "Added bilingual English and Telugu support with scripture-linked references",
-            "Delivered installable PWA experience optimized for mobile and touch devices"
+            "Delivered installable PWA experience optimized for mobile and touch devices",
+            "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
-          technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n"],
+          technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n", "Cursor AI", "GitHub Copilot"],
           url: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
         },
         {
@@ -254,8 +277,9 @@ export const resumeData = {
             "Live location updates using Google Maps API",
             "High-performance dashboard handling thousands of IoT devices",
             "Advanced UI components with ReactJS and TypeScript",
+            "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
-          technologies: ["ReactJS", "TypeScript", "Google Maps API", "Rest API Integration", "WebSockets", "Map Clusters", "Geo-Fencing", "Material UI", "Kendo", "Bootstrap","CSS3", "LESS"],
+          technologies: ["ReactJS", "TypeScript", "Google Maps API", "Rest API Integration", "WebSockets", "Map Clusters", "Geo-Fencing", "Material UI", "Kendo", "Bootstrap","CSS3", "LESS", "Cursor AI", "GitHub Copilot"],
           url: "https://www.orbcomm.com/"
         },
         {

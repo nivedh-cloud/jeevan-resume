@@ -2,8 +2,19 @@ import { motion } from 'framer-motion';
 import { resumeData } from '../data/resumeData';
 
 export const Skills = () => {
+  const formatCategory = (key: string) => {
+    const withSpaces = key.replace(/([A-Z])/g, ' $1');
+    return withSpaces
+      .split(' ')
+      .filter(Boolean)
+      .map((word) =>
+        word.toLowerCase() === 'ai' ? 'AI' : word.charAt(0).toUpperCase() + word.slice(1)
+      )
+      .join(' ');
+  };
+
   const skillCategories = Object.entries(resumeData.skills).map(([category, skills]) => ({
-    category: category.charAt(0).toUpperCase() + category.slice(1),
+    category: formatCategory(category),
     skills: skills as string[]
   }));
 

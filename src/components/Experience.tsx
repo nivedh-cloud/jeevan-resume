@@ -58,7 +58,9 @@ export const Experience = () => {
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
                         <h3 className="text-xl font-bold text-white">{job.position}</h3>
                       </div>
-                      <p className="text-blue-400 font-semibold mb-1">{job.company}</p>
+                      {job.company && (
+                        <p className="text-blue-400 font-semibold mb-1">{job.company}</p>
+                      )}
                       <p className="text-sm text-gray-300">{job.duration}</p>
                     </div>
                     <motion.div
