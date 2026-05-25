@@ -8,11 +8,10 @@ export const resumeData = {
   summary: "Extensive experience in analysis, design and development of websites as a web developer with strong application analysis, design, development, debugging and problem-solving skills. Passionate about creating responsive, high-performance web applications with modern technologies.",
   
   skills: {
-    frontend: ["ReactJs", "HTML5", "CSS3", "JavaScript", "ES6+","Zustand", "Redux Toolkit","TypeScript", "Capacitor","HighCharts", "Vite", "Google Maps API","Eslint", "D3.js", "Nodejs"],
-    frameworks: ["Bootstrap", "Tailwind CSS", "Material UI", "Kendo UI"],
+    frontend: ["ReactJs", "HTML5", "CSS3", "JavaScript", "ES6+", "Zustand", "Redux Toolkit", "TypeScript", "Capacitor", "HighCharts", "Vite", "Google Maps API", "Eslint", "D3.js", "Nodejs", "Tailwind CSS", "Material UI"],
+    aiPoweredDevTools: ["Cursor AI", "GitHub Copilot", "GitHub Copilot Workspace", "LLM Prompts Integration"],
     devops: ["Git", "Jira", "Argo", "Jenkins", "Agile"],
     backend: ["REST APIs Integration","WebSockets Integration",  "JSON", "AJAX"],
-    aiPoweredDevTools: ["Cursor AI", "GitHub Copilot", "GitHub Copilot Workspace", "LLM Prompts Integration"],
     tools: ["Visual Studio", "Visual Studio Code", "WebStorm", "Cursor","IntelliJ IDEA", "Photoshop", "Adobe Suite", "Figma"],
     other: ["Responsive Design", "Cross-browser Compatibility", "UI/UX Design", "Test"]
   },
