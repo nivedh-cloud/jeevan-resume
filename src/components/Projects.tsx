@@ -1,6 +1,62 @@
 import { motion } from 'framer-motion';
 import { resumeData } from '../data/resumeData';
 import { ExternalLink, X } from 'lucide-react';
+
+const PlayStoreIcon = ({ size = 20 }: { size?: number }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 256 280"
+    aria-label="Google Play Store"
+  >
+    <defs>
+      <linearGradient id="ps-a" x1="91.49%" x2="-38.351%" y1="4.948%" y2="71.907%">
+        <stop offset="0%" stopColor="#00A0FF" />
+        <stop offset="1%" stopColor="#00A1FF" />
+        <stop offset="26%" stopColor="#00BEFF" />
+        <stop offset="51%" stopColor="#00D2FF" />
+        <stop offset="76%" stopColor="#00DFFF" />
+        <stop offset="100%" stopColor="#00E3FF" />
+      </linearGradient>
+      <linearGradient id="ps-b" x1="107.685%" x2="-130.64%" y1="49.997%" y2="49.997%">
+        <stop offset="0%" stopColor="#FFE000" />
+        <stop offset="41%" stopColor="#FFBD00" />
+        <stop offset="78%" stopColor="#FFA500" />
+        <stop offset="100%" stopColor="#FF9C00" />
+      </linearGradient>
+      <linearGradient id="ps-c" x1="86.219%" x2="-50.15%" y1="17.877%" y2="194.703%">
+        <stop offset="0%" stopColor="#FF3A44" />
+        <stop offset="100%" stopColor="#C31162" />
+      </linearGradient>
+      <linearGradient id="ps-d" x1="-18.754%" x2="42.121%" y1="-54.052%" y2="24.917%">
+        <stop offset="0%" stopColor="#32A071" />
+        <stop offset="7%" stopColor="#2DA771" />
+        <stop offset="48%" stopColor="#15CF74" />
+        <stop offset="80%" stopColor="#06E775" />
+        <stop offset="100%" stopColor="#00F076" />
+      </linearGradient>
+    </defs>
+    <g fill="none">
+      <path
+        fill="url(#ps-a)"
+        d="M.535 1.97C.017 2.52-.288 3.37-.288 4.48v270.034c0 1.11.305 1.96.823 2.51l.873.873L153.522 140.65v-1.74L1.408 1.097.535 1.97z"
+      />
+      <path
+        fill="url(#ps-b)"
+        d="M204.193 192.124L153.523 141.4v-1.74l50.673-50.673 1.144.65 60.014 34.092c17.15 9.74 17.15 25.685 0 35.425l-60.014 34.092-1.147.65z"
+      />
+      <path
+        fill="url(#ps-c)"
+        d="M205.337 191.474l-51.814-51.81L.535 277.927c5.65 5.984 14.984 6.72 25.493.748l179.31-101.913"
+      />
+      <path
+        fill="url(#ps-d)"
+        d="M205.337 88.182L26.025.535C15.516-5.434 6.184-4.7.534 1.282l153 152.95 51.804-66.05z"
+      />
+    </g>
+  </svg>
+);
 import { useState } from 'react';
 import appScreenshot from '../../public/app-sc.png?url';
 
@@ -180,17 +236,32 @@ const ProjectCard = ({ project, hoveredId, setHoveredId, setSelectedProject, ite
             )}
             <p className="text-blue-400 text-sm font-semibold">{project.company}</p>
           </div>
-          {project.url && (
-            <motion.a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2 }}
-              className="text-blue-400 hover:text-blue-300"
-            >
-              <ExternalLink size={20} />
-            </motion.a>
-          )}
+          <div className="flex items-center gap-2">
+            {project.url && (
+              <motion.a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.2 }}
+                className="text-blue-400 hover:text-blue-300"
+                title="View live web app"
+              >
+                <ExternalLink size={20} />
+              </motion.a>
+            )}
+            {project.playStoreUrl && (
+              <motion.a
+                href={project.playStoreUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                whileHover={{ scale: 1.2 }}
+                className="inline-flex items-center"
+                title="View on Google Play Store"
+              >
+                <PlayStoreIcon size={22} />
+              </motion.a>
+            )}
+          </div>
           {isFriendLocator && (
             <motion.div
               whileHover={{ scale: 1.2 }}

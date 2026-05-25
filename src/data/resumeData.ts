@@ -216,7 +216,8 @@ export const resumeData = {
             "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
           technologies: ["React", "JavaScript", "HTML5", "CSS3", "PWA", "Responsive Design", "Interactive Maps", "Cursor AI", "GitHub Copilot"],
-          url: "https://nivedh-cloud.github.io/world-atlas/"
+          url: "https://nivedh-cloud.github.io/world-atlas/",
+          playStoreUrl: "https://play.google.com/store/apps/details?id=com.nivedhLabs.WorldBordersnCountryInfoApp&pcampaignid=web_share"
         },
         {
           id: 16,
@@ -235,7 +236,8 @@ export const resumeData = {
             "Leveraged AI-assisted development workflows (Cursor AI & GitHub Copilot) to accelerate product delivery, shifting focus from boilerplate coding to high-level system architecture and robust UI/UX design."
           ],
           technologies: ["React", "JavaScript", "TypeScript", "D3.js", "HTML5", "CSS3", "Capacitor", "PWA", "Interactive Maps", "i18n", "Cursor AI", "GitHub Copilot"],
-          url: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
+          url: "",
+          playStoreUrl: "https://play.google.com/store/apps/details?id=com.nivedh.bibletracemaps&pcampaignid=web_share"
         },
         {
           id: 5,
